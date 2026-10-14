@@ -3,9 +3,22 @@
   "displayName": "MeetingRecorder",
   "version": "0.1.0",
   "description": "Find and read the meetings you record with MeetingRecorder for Mac: list them by date, search by topic or person, and read full transcripts and summaries. Read-only; reads the recordings folder on your Mac and sends nothing anywhere.",
-  "author": { "name": "MeetingRecorder", "url": "https://meetingsrecorder.com" },
+  "author": {
+    "name": "MeetingRecorder",
+    "url": "https://meetingsrecorder.com"
+  },
   "homepage": "https://meetingsrecorder.com",
   "repository": "https://github.com/emishin/meetingrecorder-claude",
   "license": "MIT",
-  "keywords": ["meetings", "transcripts", "summaries", "meeting notes", "macos"]
+  "keywords": [
+    "meetings",
+    "transcripts",
+    "summaries",
+    "meeting notes",
+    "macos"
+  ],
+  "documentationUrl": "https://github.com/emishin/meetingrecorder-claude#readme",
+  "supportUrl": "https://github.com/emishin/meetingrecorder-claude/issues",
+  "privacyPolicyUrl": "https://meetingsrecorder.com/privacy/#claude",
+  "termsOfServiceUrl": "https://meetingsrecorder.com/terms/"
 }
