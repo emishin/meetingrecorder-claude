@@ -1,7 +1,7 @@
 {
   "name": "meetingrecorder",
   "displayName": "MeetingRecorder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find and read the meetings you record with MeetingRecorder for Mac: list them by date, search by topic or person, and read full transcripts and summaries. Read-only; reads the recordings folder on your Mac and sends nothing anywhere.",
   "author": {
     "name": "MeetingRecorder",

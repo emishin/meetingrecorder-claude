@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "meetingrecorder",
   "display_name": "MeetingRecorder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find and read your MeetingRecorder meetings: list, search, transcripts and summaries.",
   "long_description": "Lets Claude work with the meetings you record with MeetingRecorder. Claude can list your meetings by date, search them by topic, person or project, and read full transcripts and summaries.\n\nEverything is read from the recordings folder on this Mac. The extension is read-only and makes no network requests: your meetings go only to your own Claude conversation.",
   "author": {

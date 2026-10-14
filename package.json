@@ -1,6 +1,6 @@
 {
   "name": "meetingrecorder-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MeetingRecorder meetings for Claude: list, search and read transcripts and summaries from the recordings folder on this Mac.",
   "type": "module",
   "private": true,

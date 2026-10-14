@@ -4,13 +4,14 @@
 
 import { resolve, scan, search, summaryOf, transcriptOf } from "./library.js";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 const PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 
 const INSTRUCTIONS = `Meetings recorded and transcribed by MeetingRecorder on this Mac.
 Use list_meetings for "what meetings did I have" and date ranges, search_meetings to find meetings about a topic, person or project, then get_summary (short) or get_transcript (full text, paged) with the meeting id.
 Transcripts are "[mm:ss] Speaker A: text" lines; speakers are labelled A, B, C — their names are not known, infer them from the conversation when it matters.
-Search matches word beginnings, so a stem finds all word forms (e.g. "Дим" finds "Диме", "Димой"). Names may be written in Cyrillic or Latin in transcripts — try both spellings when a search finds little.`;
+Search matches word beginnings, so a stem finds all word forms (e.g. "Дим" finds "Диме", "Димой"). Names may be written in Cyrillic or Latin in transcripts — try both spellings when a search finds little.
+If a calendar is connected too, match a recording to its event by date and overlapping start time to get the event title and attendees (and use them to tell who Speaker A/B is, when the conversation supports it). Change calendar events only when the user asks, and confirm first if other people are invited.`;
 
 // --- formatting --------------------------------------------------------------
 
