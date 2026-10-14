@@ -1,0 +1,16 @@
+{
+  "name": "meetingrecorder-mcp",
+  "version": "0.1.0",
+  "description": "MeetingRecorder meetings for Claude: list, search and read transcripts and summaries from the recordings folder on this Mac.",
+  "type": "module",
+  "private": true,
+  "main": "server/main.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "repository": "github:emishin/meetingrecorder-claude"
+}

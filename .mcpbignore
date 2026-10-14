@@ -1,0 +1,9 @@
+test/
+dist/
+skills/
+.claude-plugin/
+.mcp.json
+.github/
+*.mcpb
+.DS_Store
+.gitignore

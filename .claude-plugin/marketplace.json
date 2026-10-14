@@ -1,0 +1,17 @@
+{
+  "name": "meetingrecorder",
+  "owner": {
+    "name": "MeetingRecorder",
+    "url": "https://meetingsrecorder.com"
+  },
+  "metadata": {
+    "description": "MeetingRecorder plugins for Claude."
+  },
+  "plugins": [
+    {
+      "name": "meetingrecorder",
+      "source": "./",
+      "description": "Find and read the meetings you record with MeetingRecorder for Mac: list, search, transcripts and summaries."
+    }
+  ]
+}

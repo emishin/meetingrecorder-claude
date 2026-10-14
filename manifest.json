@@ -1,0 +1,66 @@
+{
+  "manifest_version": "0.3",
+  "name": "meetingrecorder",
+  "display_name": "MeetingRecorder",
+  "version": "0.1.0",
+  "description": "Find and read your MeetingRecorder meetings: list, search, transcripts and summaries.",
+  "long_description": "Lets Claude work with the meetings you record with MeetingRecorder. Claude can list your meetings by date, search them by topic, person or project, and read full transcripts and summaries.\n\nEverything is read from the recordings folder on this Mac. The extension is read-only and makes no network requests: your meetings go only to your own Claude conversation.",
+  "author": {
+    "name": "MeetingRecorder",
+    "url": "https://meetingsrecorder.com"
+  },
+  "homepage": "https://meetingsrecorder.com",
+  "support": "https://github.com/emishin/meetingrecorder-claude/issues",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/main.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/main.js"
+      ]
+    }
+  },
+  "tools": [
+    {
+      "name": "list_meetings",
+      "description": "List recorded meetings by date: title, date, duration and a one-line gist."
+    },
+    {
+      "name": "search_meetings",
+      "description": "Find meetings by words in the title, summary or transcript, with snippets."
+    },
+    {
+      "name": "get_transcript",
+      "description": "Full transcript of a meeting, in parts for long ones."
+    },
+    {
+      "name": "get_summary",
+      "description": "Short gist and full summary of a meeting."
+    }
+  ],
+  "keywords": [
+    "meetings",
+    "transcripts",
+    "summaries",
+    "notes",
+    "macOS"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "darwin"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emishin/meetingrecorder-claude"
+  },
+  "privacy_policies": [
+    "https://meetingsrecorder.com/privacy/"
+  ]
+}
